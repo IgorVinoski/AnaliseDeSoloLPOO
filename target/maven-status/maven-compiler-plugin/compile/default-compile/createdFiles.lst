@@ -1,0 +1,12 @@
+dao/InterfaceDB.class
+Fertilizante.class
+DefensivoAgricola_.class
+Fertilizante_.class
+Agricultor_.class
+DefensivoAgricola.class
+Parcela_.class
+Agricultor.class
+dao/PersistenciaJPA.class
+Insumo_.class
+Insumo.class
+Parcela.class
