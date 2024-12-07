@@ -94,5 +94,11 @@
             <version>2.7.12</version>
             <scope>provided</scope>
         </dependency>
-    </dependencies>
+          <dependency>
+               <groupId>jfree</groupId>
+               <artifactId>jfreechart</artifactId>
+               <version>1.0.13</version>
+               <type>jar</type>
+          </dependency>
+     </dependencies>
 </project>

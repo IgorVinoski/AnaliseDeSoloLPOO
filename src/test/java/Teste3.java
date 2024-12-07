@@ -1,3 +1,5 @@
+import igor.sistemaanalisedesololpoo.Parcela;
+import igor.sistemaanalisedesololpoo.Agricultor;
 import dao.PersistenciaJPA;
 import java.util.ArrayList;
 import java.util.Date;

@@ -3,6 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit4TestClass.java to edit this template
  */
 
+import igor.sistemaanalisedesololpoo.Parcela;
+import igor.sistemaanalisedesololpoo.Agricultor;
 import dao.PersistenciaJPA;
 import java.util.ArrayList;
 import java.util.Date;

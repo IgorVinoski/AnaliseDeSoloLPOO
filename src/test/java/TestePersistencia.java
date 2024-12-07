@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit4TestClass.java to edit this template
  */
 
+import igor.sistemaanalisedesololpoo.Agricultor;
 import dao.PersistenciaJPA;
 import org.junit.After;
 import org.junit.Before;

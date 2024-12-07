@@ -1,3 +1,5 @@
+package igor.sistemaanalisedesololpoo;
+
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import java.util.Date;
@@ -12,6 +14,9 @@ public class DefensivoAgricola extends Insumo {
     public DefensivoAgricola(String nome, Date dataAplicacao, String categoria) {
         super(nome, dataAplicacao);
         this.categoria = categoria;
+    }
+
+    public DefensivoAgricola() {
     }
 
     // Getters e Setters

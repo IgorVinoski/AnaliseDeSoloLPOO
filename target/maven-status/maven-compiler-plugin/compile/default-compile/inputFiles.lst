@@ -5,3 +5,10 @@
 /home/igor/bcc/2024.1/Tecnologias de Orientacao a Objetos/SistemaAnaliseDeSoloLPOO/src/main/java/igor/sistemaanalisedesololpoo/Fertilizante.java
 /home/igor/bcc/2024.1/Tecnologias de Orientacao a Objetos/SistemaAnaliseDeSoloLPOO/src/main/java/igor/sistemaanalisedesololpoo/Insumo.java
 /home/igor/bcc/2024.1/Tecnologias de Orientacao a Objetos/SistemaAnaliseDeSoloLPOO/src/main/java/igor/sistemaanalisedesololpoo/Parcela.java
+/home/igor/bcc/2024.1/Tecnologias de Orientacao a Objetos/SistemaAnaliseDeSoloLPOO/src/main/java/view/AtualizarInsumosListener.java
+/home/igor/bcc/2024.1/Tecnologias de Orientacao a Objetos/SistemaAnaliseDeSoloLPOO/src/main/java/view/MainJFrame.java
+/home/igor/bcc/2024.1/Tecnologias de Orientacao a Objetos/SistemaAnaliseDeSoloLPOO/src/main/java/view/TelaAmostragem.java
+/home/igor/bcc/2024.1/Tecnologias de Orientacao a Objetos/SistemaAnaliseDeSoloLPOO/src/main/java/view/TelaCadastroAgricultor.java
+/home/igor/bcc/2024.1/Tecnologias de Orientacao a Objetos/SistemaAnaliseDeSoloLPOO/src/main/java/view/TelaCadastroInsumo.java
+/home/igor/bcc/2024.1/Tecnologias de Orientacao a Objetos/SistemaAnaliseDeSoloLPOO/src/main/java/view/TelaCadastroParcela.java
+/home/igor/bcc/2024.1/Tecnologias de Orientacao a Objetos/SistemaAnaliseDeSoloLPOO/src/main/java/view/TelaGraficoParcela.java

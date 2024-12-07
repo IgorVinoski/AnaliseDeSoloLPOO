@@ -1,3 +1,5 @@
+package igor.sistemaanalisedesololpoo;
+
 
 import java.io.Serializable;
 import java.util.Date;
@@ -11,27 +13,28 @@ import javax.persistence.InheritanceType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-
 @Entity
-@Table(name = "tb_insumo")
 @Inheritance(strategy = InheritanceType.JOINED)
 public abstract class Insumo implements Serializable {
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(length = 50) 
     private String nome;
-    private Date dataAplicacao;
+    private Date dataDeAplicacao;
 
     @ManyToOne
-    @JoinColumn(name = "parcela_id")
-    private Parcela parcela;
+    private Parcela parcela; // Relacionamento com a classe Parcela
 
-    public Insumo(String nome, Date dataAplicacao) {
+    // Construtores
+    public Insumo() {}
+
+    public Insumo(String nome, Date dataDeAplicacao) {
         this.nome = nome;
-        this.dataAplicacao = dataAplicacao;
+        this.dataDeAplicacao = dataDeAplicacao;
     }
 
+    // Getters e Setters
     public Long getId() {
         return id;
     }
@@ -48,13 +51,7 @@ public abstract class Insumo implements Serializable {
         this.nome = nome;
     }
 
-    public Date getDataAplicacao() {
-        return dataAplicacao;
-    }
-
-    public void setDataAplicacao(Date dataAplicacao) {
-        this.dataAplicacao = dataAplicacao;
-    }
+ 
 
     public Parcela getParcela() {
         return parcela;
@@ -64,4 +61,9 @@ public abstract class Insumo implements Serializable {
         this.parcela = parcela;
     }
 
+    // toString para exibição em JComboBox
+    @Override
+    public String toString() {
+        return nome;
+    }
 }

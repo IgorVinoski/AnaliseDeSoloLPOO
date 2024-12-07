@@ -1,6 +1,8 @@
+package igor.sistemaanalisedesololpoo;
+
+import java.util.ArrayList;
 import javax.persistence.*;
 import java.util.List;
-import java.util.Date;
 
 @Entity
 @Table(name = "tb_parcela")
@@ -19,8 +21,12 @@ public class Parcela {
 
     @OneToMany(mappedBy = "parcela", cascade = CascadeType.ALL)
     private List<Insumo> insumosAplicados;
-
+    public Parcela() {
+           this.insumosAplicados = new ArrayList<>();
+       }
+    
     public Parcela(String tipoSolo, double ph, double umidade) {
+           this();
         this.tipoSolo = tipoSolo;
         this.ph = ph;
         this.umidade = umidade;
@@ -73,5 +79,10 @@ public class Parcela {
     public void setInsumosAplicados(List<Insumo> insumosAplicados) {
         this.insumosAplicados = insumosAplicados;
     }
+
+    @Override
+   public String toString() {
+       return "id=" + id + ", tipoSolo=" + tipoSolo + ", agricultor=" + agricultor;
+   }
 
 }
